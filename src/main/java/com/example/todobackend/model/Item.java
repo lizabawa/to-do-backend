@@ -3,8 +3,8 @@ package com.example.todobackend.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "lists")
-public class List {
+@Table(name = "items")
+public class Item {
 
     @Id
     @Column
@@ -15,5 +15,5 @@ public class List {
     private String title;
 
     @Column
-    private String description;
+    private String note;
 }
