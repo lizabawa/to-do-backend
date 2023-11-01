@@ -1,5 +1,6 @@
 package com.example.todobackend.service;
 
+import com.example.todobackend.exception.InformationAlreadyExistsException;
 import com.example.todobackend.model.User;
 import com.example.todobackend.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
