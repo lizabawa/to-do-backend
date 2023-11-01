@@ -33,4 +33,8 @@ public class UserService {
                     " already exists");
         }
     }
+
+    public User findUserByEmailAddress(String email) {
+        return userRepository.findUserByEmailAddress(email);
+    }
 }
